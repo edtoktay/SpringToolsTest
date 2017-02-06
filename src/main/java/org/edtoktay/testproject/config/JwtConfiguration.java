@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
  *
  */
 @Configuration
-@ComponentScan("org.edtoktay.security")
+@ComponentScan("org.edtoktay.springtools.security")
 public class JwtConfiguration {
 	@Value("${security.jjwt.token-expiration-time}")
 	private int tokenExpirationTime;
