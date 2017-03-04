@@ -1,7 +1,7 @@
 oracle: 
-  username: mailerdev
-  password: mailerdev
-  url: jdbc:oracle:thin:@172.19.240.215:1521:AMASTDDB01
+  username: scott
+  password: tiget
+  url: jdbc:oracle:thin:@127.0.0.1:1521:TIGER
 
 security:
   jjwt:
