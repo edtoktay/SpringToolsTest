@@ -1,0 +1,14 @@
+oracle: 
+  username: scott
+  password: tiget
+  url: jdbc:oracle:thin:@127.0.0.1:1521:TIGER
+
+security:
+  jjwt:
+    refresh-token-exp-time: 10
+    token-header: Authorization
+    token-issuer: http://deniz.one
+    token-expiration-time: 10
+    token-sign-key: hedeleHodoloma
+    header-prefix: bearer
+    authentication-entry-point: 
